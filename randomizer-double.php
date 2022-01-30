@@ -172,7 +172,7 @@ $dbtable = mysqli_query($conn, "SELECT dbtable FROM double_randomizer WHERE id='
       <a href ="https://mail.google.com/mail/?view=cm&fs=1&to=support@randomeverything.net" style="text-decoration:underline;" target="_blank">support@randomeverything.net</a>
     </div>
     <div style="text-align: center; width:100%; display:inline-block; font-size:10px; margin-top:20px">
-      &copy; <?php echo date("Y");?> - Random Everyhing
+      &copy; 2019 - <?php echo date("Y");?> - Random Everything
     </div>
     <button type="button" name="gototop" onclick="scrollToTop()" id="goToTop-btn">^</button>
   </footer>

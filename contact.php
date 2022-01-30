@@ -69,7 +69,7 @@
     <h1 style="font-size:35px; text-decoration:underline; color:#fd4503; text-align:center">Contact</h1>
     <h3 style="text-align:center">As we want you to have a great experience on our website, we give you the opportunity to ask for support</h3>
     <h3>E-mail adress: <p style="text-decoration:underline; display:inline">support@randomeverything.net</span></p></h3>
-    <h3>Write us and e-mail below</h3>
+    <h3>Write us an e-mail below</h3>
     <form class="contact-form" action="includes\contactform.php" method="post">
       <input type="text" name="name" placeholder="Full Name"><br>
       <input type="text" name="mail" placeholder="Your e-mail adress"><br>
@@ -126,7 +126,7 @@
       <a href ="https://mail.google.com/mail/?view=cm&fs=1&to=support@randomeverything.net" style="text-decoration:underline;" target="_blank">support@randomeverything.net</a>
     </div>
     <div style="text-align: center; width:100%; display:inline-block; font-size:10px; margin-top:20px">
-      &copy; <?php echo date("Y");?> - Random Everyhing
+      &copy; 2019 - <?php echo date("Y");?> - Random Everything
     </div>
     <button type="button" name="gototop" onclick="scrollToTop()" id="goToTop-btn">^</button>
   </footer>
